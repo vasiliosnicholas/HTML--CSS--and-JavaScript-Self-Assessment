@@ -4,20 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>HTML, CSS, and JavaScript Self-Assessment</title>
 </head>
 
 <body> <!--Everything in the body element is visible to web users-->
-    <h1 class="webheader">Self-assessment for CS5610 regarding HTML and CSS</h1>
+    <h1 class="webheader">Self-Assessment for CS5610 Covering HTML and CSS</h1>
     <header>
-        <nav>
+        <span class="navbar"> Navigation Bar: </span>
+        <nav class="navbar">
             <ol>
                 <li class="nav"> <a href="#UsefulHTMLTags">Most useful HTML tags </a></li>
                 <li class="nav"><a href="#SEO">Most important header tags for SEO</a></li>
                 <li class="nav"><a href="#Grid">3x3 grid using span and div</a></li>
-                <li class="nav">Box model options</li>
-                <li class="nav">Itemized List</li>
-                <li class="nav">Creative Part with Positioning Options</li>
+                <li class="nav"><a href="#BoxModelOptions"> Box model options</a></li>
+                <li class="nav"><a href="#ListStyling">Itemized List Styling</a></li>
+                <li class="nav"><a href="#Positioning">Creative Part with Positioning Options</a></li>
             </ol>
         </nav>
     </header>
@@ -44,8 +46,11 @@
             <p>Here's a list of some of the most useful HTML tags for search engine optimization:</p>
             <ul>
                 <li><code>title</code> - provides the title of the web page in search results.</li>
-                <li><code>meta</code> - meta </li>
+                <li><code>meta</code> with <code>description</code> attribute - provides brief description of the content on a web page.</li>
+                <li><code>h1-h6</code> - provides high-level overview of the structure of contents on a page.</li>
+                <li><code>meta</code> with <code>keywords</code> attribute - provides keywords to be used for indexing and sorting a webpage during a search.</li>
             </ul>
+            Source: <a href="https://www.geeksforgeeks.org/websites-apps/10-most-important-meta-tags-for-seo/">GeeksforGeeks</a>
         </section>
 
         <section id="Grid">
@@ -61,10 +66,56 @@
             </div>
 
         </section>
+
+        <section id="BoxModelOptions">
+            <h2 class="section_heading">Box Model Options:</h2>
+            <div class="row1">
+                <span class="col1">1</span> <span class="col2">2</span> <span class="col3">3</span>
+            </div>
+            <div class="row2">
+                <span class="col1">4</span> <span class="col2">5</span> <span class="col3">6</span>
+            </div>
+            <div class="row3">
+                <span class="col1">7</span> <span class="col2">8</span> <span class="col3">9</span>
+            </div>
+        </section>
+
+        <section id="ListStyling">
+            <h2 class="section_heading">Itemizing List Styling:</h2>
+            <ul>
+                <li class="item1">Text</li>
+                <li class="item2">Text</li>
+                <li class="item3">Text</li>
+                <li class="item4">Text</li>
+                <li class="item5">Text</li>
+                <li class="item6">Text</li>
+            </ul>
+        </section>
+
+        <section id="Positioning">
+            <h2 class="section_heading">Positioning:</h2>
+
+            <div class="item1">
+                Item 1
+            </div>
+            
+            <div class="item2">
+                Item 2
+            </div>
+            
+            <div class="item3">
+                Item 3
+            </div>
+
+            <div class="item4">
+                Item 4
+            </div>
+        </section>
     </main>
     <footer>
         Website by Vasilios Nicholas
     </footer>
+    
 </body>
 
 </html>
