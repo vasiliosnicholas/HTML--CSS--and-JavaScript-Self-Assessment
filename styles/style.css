@@ -1,0 +1,107 @@
+#BoxModelOptions div.row1 {
+    border : 10px solid blue;
+    margin : 10px solid yellow;
+    padding : 10px 10px solid gray;
+}
+
+#BoxModelOptions div.row2 {
+    border : 1px solid green;
+    margin : 2px;
+    padding : 3px;
+}
+
+#BoxModelOptions div.row3 {
+    border : 100px solid red;
+    margin : 30px;
+    padding : 50px;
+}
+
+
+#BoxModelOptions span.col1 {
+    border : 10px 10px 10px 10px;
+    margin : 10px;
+    padding : 10px;
+    background: orange;
+}
+
+#BoxModelOptions span.col2 {
+    border : 1px 2px;
+    margin : 2px;
+    padding : 3px 9px;
+    background: purple;
+}
+
+#BoxModelOptions span.col3 {
+    border : 10px;
+    margin : 5px;
+    padding : 1px;
+    background: grey;
+}
+
+#ListStyling .item1 {
+    font-size: 10px;
+}
+
+#ListStyling .item2 {
+    font-size: 4vw;
+}
+
+#ListStyling .item3 {
+    font-size: 2em;
+}
+
+#ListStyling .item4 {
+    font-size: 3rem;
+}
+
+#ListStyling .item5 {
+    font-size: 1cm;
+}
+
+#ListStyling .item6 {
+    font-size: 0.5in;
+}
+
+#Positioning > .item1 {
+    position: absolute;
+    background: yellow;
+    top: 20in;
+}
+
+#Positioning > .item2 {
+    position: relative;
+    top: 50px;
+}
+
+#Positioning > .item3 {
+    position: relative;
+    right: 50px;
+}
+
+#Positioning > .item4 {
+    position: sticky;
+    bottom: 0;
+    right: 50;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+body {
+
+  width: 500px;
+  height: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top : 0;
+    left : 20px;
+    width: auto;
+}
+
